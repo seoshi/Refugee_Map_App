@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ryhma.refugee_map_app.MainActivity">
+    <item
+        android:title="Map"
+        android:orderInCategory="100"
+        android:id="@+id/menu_map"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:showAsAction="ifRoom" />
+    <item
+        android:title="Events"
+        android:orderInCategory="102"
+        android:id="@+id/menu_events"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:showAsAction="ifRoom" />
+    <item
+        android:title="About"
+        android:orderInCategory="103"
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="104"
+        android:title="@string/action_settings"
+        android:showAsAction="never" />
+</menu>
